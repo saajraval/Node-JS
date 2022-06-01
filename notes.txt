@@ -1,0 +1,57 @@
+all the js files in Node are known as modules 
+npm is tool used to install libraries 
+eg : npm install validator
+
+
+every json file has dependencies entry in it 
+remove cap from the version to fix the version excatly 
+^ mean any version will be installed 
+
+eg: "dependencies": {
+    "validator": "^13.7.0"
+  } 
+
+then we can remove cap for downoding the same version in it 
+
+there are three types of modules : 
+eg with types 
+const validator = require("validator") -> external module
+
+let calc =require("./calc") -> user defined module
+
+const fs = require("fs"); -> inbuilt module 
+
+Q:howw can we create a backend logic for any frontend 
+ans => REST Api
+
+API -> will respone to the request ...........and it is made in backend 
+(it a URL in vage language )
+
+in API input and output are in json 
+all prog lang knows what json is and they will take i/p and o/p in the form of json 
+
+REST is a protocol for API  
+
+rules for 
+1-> i/p and o/p in the format of json 
+2-> to create mapping should be POST
+3-> to read  mapping should be GET
+4-> to remove mapping should be DELETE
+5-> to update mapping should be PUT
+
+
+REST VS SOAP 
+XML VS JSON 
+echma
+
+
+-----------------------------------------------
+
+
+add(5,5,function (ans)){
+	return ans*ans
+}
+
+=> function here is called anonomous function 
+
+or else we can use cllback function 

@@ -55,3 +55,9 @@ add(5,5,function (ans)){
 => function here is called anonomous function 
 
 or else we can use cllback function 
+
+-------------------------------------------------------
+
+use is a function of express that will pass the data in body  
+by default the data  is in string thus need to be casted 
+
